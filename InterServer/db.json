@@ -1,0 +1,321 @@
+{
+  "accounts": [
+    {
+      "first_name": "Morse",
+      "last_name": "Magrane",
+      "email": "mmagrane4@blogtalkradio.com",
+      "phone": "0962366046",
+      "gender": "Male",
+      "position": "VP Marketing",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "first_name": "Laney",
+      "last_name": "Doxey",
+      "email": "ldoxey5@reverbnation.com",
+      "phone": "927-954-6091",
+      "gender": "Female",
+      "position": "Structural Analysis Engineer"
+    },
+    {
+      "id": 7,
+      "first_name": "Alyse",
+      "last_name": "Santino",
+      "email": "asantino6@harvard.edu",
+      "phone": "282-631-3555",
+      "gender": "Female",
+      "position": "Engineer III"
+    },
+    {
+      "id": 8,
+      "first_name": "Kevan",
+      "last_name": "Birchenhead",
+      "email": "kbirchenhead7@unc.edu",
+      "phone": "505-102-2818",
+      "gender": "Male",
+      "position": "Cost Accountant"
+    },
+    {
+      "id": 9,
+      "first_name": "Lindon",
+      "last_name": "Billham",
+      "email": "lbillham8@shinystat.com",
+      "phone": "222-317-0028",
+      "gender": "Male",
+      "position": "Sales Associate"
+    },
+    {
+      "id": 10,
+      "first_name": "Chaddy",
+      "last_name": "MacLaren",
+      "email": "cmaclaren9@facebook.com",
+      "phone": "104-301-8311",
+      "gender": "Male",
+      "position": "Occupational Therapist"
+    },
+    {
+      "id": 12,
+      "first_name": "Cyndia",
+      "last_name": "Hengoed",
+      "email": "chengoedb@addtoany.com",
+      "phone": "230-104-3245",
+      "gender": "Female",
+      "position": "Human Resources Manager"
+    },
+    {
+      "id": 13,
+      "first_name": "Aubrette",
+      "last_name": "Mangenot",
+      "email": "amangenotc@cornell.edu",
+      "phone": "583-545-7509",
+      "gender": "Female",
+      "position": "General Manager"
+    },
+    {
+      "first_name": "Morse",
+      "last_name": "Magrane",
+      "email": "mmagrane4@blogtalkradio.com",
+      "phone": "0962366046",
+      "gender": "Female",
+      "position": "VP Marketing",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "first_name": "Benedikta",
+      "last_name": "Peeter",
+      "email": "bpeeterg@cbslocal.com",
+      "phone": "888-822-1936",
+      "gender": "Female",
+      "position": "Staff Scientist"
+    },
+    {
+      "id": 18,
+      "first_name": "Bridie",
+      "last_name": "Rue",
+      "email": "brueh@pcworld.com",
+      "phone": "941-458-7052",
+      "gender": "Female",
+      "position": "Software Consultant"
+    },
+    {
+      "id": 19,
+      "first_name": "Corly",
+      "last_name": "McBoyle",
+      "email": "cmcboylei@dailymotion.com",
+      "phone": "483-950-7852",
+      "gender": "Female",
+      "position": "VP Product Management"
+    },
+    {
+      "first_name": "Truong 1",
+      "last_name": "Nhat Quang",
+      "email": "truongquang2121@gmail.com",
+      "phone": "0888888888",
+      "gender": "Male",
+      "position": "IT",
+      "id": 21
+    },
+    {
+      "first_name": "Truong ",
+      "last_name": "Nhat Quang SE",
+      "email": "quangtnse171198@fpt.edu.vn",
+      "phone": "0962366046",
+      "gender": "Male",
+      "position": "IT",
+      "id": 22
+    },
+    {
+      "first_name": "Truong ",
+      "last_name": "Nhat Quang11",
+      "email": "truongquang8885@gmail.com",
+      "phone": "0962366046",
+      "gender": "Male",
+      "position": "Sales Associate",
+      "id": 23
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Web Developer IV",
+      "status": "Todo",
+      "description": "Insertion of Infusion Device into Right Knee Joint, Open Approach",
+      "id": 6
+    },
+    {
+      "title": "Desktop Support Technician",
+      "status": "In progress",
+      "description": "Restriction of Right Common Iliac Artery with Branched or Fenestrated Intraluminal Device, Three or More Arteries, Percutaneous Approach",
+      "id": 5
+    },
+    {
+      "title": "Social Worker",
+      "status": "Todo",
+      "description": "Removal of Nonautologous Tissue Substitute from Left Sacroiliac Joint, Open Approach",
+      "id": 8
+    },
+    {
+      "title": "Electrical Engineer",
+      "status": "Closed",
+      "description": "Detachment at Right Shoulder Region, Open Approach",
+      "id": 10
+    },
+    {
+      "title": "Lion",
+      "status": "Todo",
+      "description": "Large enclosure for lionssdfdsfgdsf",
+      "id": 1703692448525
+    },
+    {
+      "title": "hello",
+      "status": "Todo",
+      "description": "world",
+      "id": 1703820601381
+    }
+  ],
+  "assignments": [
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": 11
+    },
+    [
+      {
+        "id": 11,
+        "accountId": 5,
+        "taskId": 4,
+        "status": "Todo"
+      },
+      {
+        "id": 12,
+        "accountId": 6,
+        "taskId": 4,
+        "status": "Todo"
+      }
+    ],
+    {
+      "id": 1703694559958,
+      "accountId": 6,
+      "taskId": 6
+    },
+    {
+      "id": 1703694559957,
+      "accountId": 5,
+      "taskId": 6
+    },
+    {
+      "id": 1703695399165,
+      "accountId": 6,
+      "taskId": 5
+    },
+    {
+      "id": 1703695399164,
+      "accountId": 8,
+      "taskId": 5
+    },
+    {
+      "id": 1703748698152,
+      "accountId": 8,
+      "taskId": 8
+    },
+    {
+      "id": 1703748738344,
+      "accountId": 10,
+      "taskId": 10
+    },
+    {
+      "id": 1703748738343,
+      "accountId": 6,
+      "taskId": 10
+    },
+    {
+      "id": 1703748738342,
+      "accountId": 12,
+      "taskId": 10
+    },
+    {
+      "id": 1703748738341,
+      "accountId": 13,
+      "taskId": 10
+    },
+    {
+      "id": 1703748890292,
+      "accountId": 6,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703748890291,
+      "accountId": 7,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703748890290,
+      "accountId": 13,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703748890289,
+      "accountId": 10,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703748890288,
+      "accountId": 9,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703748890287,
+      "accountId": 8,
+      "taskId": 1703692448525
+    },
+    {
+      "id": 1703820608999,
+      "accountId": 23,
+      "taskId": 1703820601381
+    }
+  ],
+  "training-periods": [
+    {
+      "accountId": 6,
+      "status": "Done",
+      "startedDate": "12/31/2023",
+      "endDate": "01/03/2024",
+      "id": 5
+    },
+    {
+      "accountId": 7,
+      "status": "Rejected",
+      "startedDate": "12/05/2023",
+      "endDate": "01/17/2024",
+      "id": 7
+    },
+    {
+      "accountId": 8,
+      "status": "In progress",
+      "startedDate": "12/05/2023",
+      "endDate": "12/14/2023",
+      "id": 9
+    },
+    {
+      "accountId": 5,
+      "status": "In progress",
+      "startedDate": "12/06/2023",
+      "endDate": "01/15/2024",
+      "id": 11
+    },
+    {
+      "accountId": 21,
+      "status": "In progress",
+      "startedDate": "12/06/2023",
+      "endDate": "01/10/2024",
+      "id": 12
+    },
+    {
+      "accountId": 22,
+      "status": "Rejected",
+      "startedDate": "12/14/2023",
+      "endDate": "01/15/2024",
+      "id": 13
+    }
+  ]
+}
